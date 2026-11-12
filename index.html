@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1220" />
+    <title>SportSouq — Gear Up. Play Better. | Sports Store UAE</title>
+    <meta name="description" content="Shop premium sports gear in the UAE: football, cricket, running, fitness and more. AED pricing, same-day delivery in Dubai, Cash on Delivery and easy returns." />
+    <meta property="og:site_name" content="SportSouq" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SportSouq — Gear Up. Play Better." />
+    <meta property="og:description" content="Premium sports gear and equipment delivered across the UAE." />
+    <meta property="og:locale" content="en_AE" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var p = JSON.parse(localStorage.getItem('ss.preferences') || '{}');
+          var t = p.theme || 'light';
+          if (t === 'system') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          if (t === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>SportSouq requires JavaScript to run.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
